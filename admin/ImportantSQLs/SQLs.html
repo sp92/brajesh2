@@ -1,0 +1,14 @@
+INSERT INTO category SELECT * FROM sheet3
+INSERT INTO products SELECT *  FROM sheet4
+
+
+insert into writer_det (writer_name, active) select distinct writer_e, 1 from products
+
+update `writer_det` set writer_name = replace(writer_name,'By : ','')
+
+update `products` set writer_e = replace(writer_e,'By : ','')
+
+
+update products p set writer = (select wid from writer_det w where w.writer_name = writer_e)
+
+

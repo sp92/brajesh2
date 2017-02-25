@@ -1,0 +1,177 @@
+html
+	{
+	height: 100%;
+	min-height: 100%;
+	border-width: 0px;
+	}
+
+body
+	{
+	height: 100%;
+	min-height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family:  Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #F9F8F8;
+	color: #000000;
+	background-image: url(images/top_bg.jpg);
+	}
+.grey_small{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	color: #666666;
+}
+.black_bold{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: black;
+	font-weight: bold;
+}
+.black_big_bold{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: black;
+	font-weight: bold;
+}
+.white_big_bold{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: white;
+	font-weight: bold;
+}
+.black_xl{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: black;
+	font-weight: normal;
+}
+.black_xxl{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	color: black;
+	font-weight: normal;
+}
+.darkblue{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	color: #014A4E;
+	font-weight: bold;
+}
+.black_big{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: black;
+	font-weight: normal;
+}
+
+
+.blue_big_regular{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: 0A8A91;
+	font-weight: normal;
+}
+.grey_runningtext{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #666768;
+}
+.green{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	
+	color: #81A701;
+	font-weight: bold;
+}
+.Orange{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FBB40A;
+	font-weight: bold;
+}
+.blue{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	color: #478D8D;
+	font-weight: bold;
+}
+.bluebig{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	
+	color: #478D8D;
+	font-weight: bold;
+}
+.lightbluebig{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	
+	color: #F0F5F7;
+	font-weight: bold;
+}
+.black_reg{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: black;
+	
+}
+.required{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: red;
+	
+}
+.black_reg_italics{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	color: black;
+	
+}
+
+.button{
+	background-color:#C6FFFF;
+	
+	text-decoration:none;
+	
+	color:#666666;
+	
+}
+.tablebordergold {
+ BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #e8e8e8 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #e8e8e8 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.TextBox {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(images/textbox_bg1.jpg);
+	border: 1px solid #CCCCCC;
+	height: 22px;
+	vertical-align: middle;
+}
+.dirdefault
+{
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(images/find1.jpg);
+}
+.dirdefault:hover
+{
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(images/find2.gif);
+}

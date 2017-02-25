@@ -1,0 +1,86 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+.row
+{
+	color:#000000;
+	background:#fff;
+	vertical-align:center;
+	height:20px;
+}
+.row1
+{
+	color:#000000;
+	background:#F2F2F2;
+	vertical-align:center;
+	height:20px;
+}
+
+.scroll
+{
+	height:420px;
+	overflow:auto;
+}
+
+.table_header td
+{
+	font-weight:bold;
+	background-color:#CCCCCC;
+	height:25px;
+	vertical-align:middle;
+}
+
+.footer
+{
+	color:#000000;
+	background:#99CC99;
+}
+
+input[type=submit], input[type=reset], input[type=button]
+{
+	margin:2px 0px 2px 0px;
+	background-color:#999999; 
+	color:#ffffff; 
+	border:none; 
+	padding:5px;
+	border-radius: 3px; 
+	-moz-border-radius: 3px; -webkit-border-radius: 3px; 
+}
+
+.select
+{
+	font-size:11px;
+	height:20px;
+}
+
+.menu
+{
+	font-size:12px;
+	padding-left:0px;
+}
+.menu li
+{
+	width:120px;
+	float:left;
+	border:#fff solid thin;
+	background-color:#006699;
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;
+	list-style:none;
+	
+}
+.menu li a
+{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.filter
+{
+	border:#ccc solid thin;
+	background-color:#DCE8ED;
+	padding:5px;
+	
+	vertical-align:middle;
+}
